@@ -1,0 +1,220 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    .class{
+        background-color: #7783b4;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        height: 932px;
+        width: 430px;
+        padding: 20px;
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .allbtns{
+                i{
+                    border: 1px solid white;
+                    border-radius: 50%;
+                    padding: 6px;
+                }
+            }
+        }
+        main{
+            .tabs {
+                display: flex;
+                justify-content: space-around;
+                background-color: #6F7DB3;
+                border-radius: 15px;
+                margin: 20px 0;
+                padding: 10px;
+        
+                .tab {
+                    flex: 1;
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 1em;
+                    color: white;
+                    background-color: #d9e2f9;
+                    border: none;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                    border-radius: 10px;
+                    margin-right: 6px !important;
+                    color: #5f5e62;
+                    &:hover {
+                        background-color: darken(#d9e2f9, 5%);
+                    }
+        
+                    &.active {
+                        background-color: #5f5e62;
+                        border-radius: 15px;
+                        color: #d9e2f9;
+                    }
+                }
+            }
+
+            .payment-info {
+                background-color: #FFF; // Or another color fitting your design
+                border-radius: 15px;
+                padding: 15px;
+                margin: 20px 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+                .payment-info-header {
+                    color: #4A4A4A; // Adjust the color to match your design
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                    // font-weight: bold;
+                    border-bottom: 1px solid #d9e2f9;
+                    display: flex;
+                    justify-content: space-between;
+                    .right{
+                        color: #7783b4;
+                        font-weight: bold;
+                        font-size: 18px !important;
+                    }
+                }
+        
+                .payment-details {
+                    .payment-detail {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 10px;
+        
+                        .payment-label {
+                            color: #4A4A4A;
+                            font-size: 1em;
+                        }
+        
+                        .payment-date, .payment-duration {
+                            color: #4A4A4A;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                
+            }
+
+            .action-buttons {
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0;
+                background-color: white;
+                border-radius: 10px;
+            
+                .action-button {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px;
+                    border-radius: 15px;
+                    color: white;
+                    font-size: 0.9em;
+                    flex-grow: 1;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                    
+                    span {
+                        color: black;
+                        text-align: center;
+                    }
+            
+                    i {
+                        color: white;
+                        background-color: #9e9eff;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            
+            .form-page{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                width: 100%;
+                height: 50px;
+                border-radius: 10px;
+                transition: all 0.5s;
+                a{
+                    cursor: pointer;
+                    text-decoration: none;
+                    color: #6F7DB3;
+                    font-weight: bold;
+                    font-size: 18px;
+                    transition: all 0.5s;
+                }
+            }
+
+            .form-page:hover{
+                transform: scale(1.05);
+            }
+
+            .health-info {
+                background-color: #FFF;
+                border-radius: 15px;
+                padding: 15px;
+                margin: 20px 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+                .health-info-header {
+                    color: #4A4A4A;
+                    font-size: 17px;
+                    margin-bottom: 15px;
+                    border-bottom: 1px solid #9e9eff;
+                    display: flex;
+                    justify-content: space-between;
+                    span{
+                        padding-top: 7px;
+                    }
+                    .right{
+                        .agree{
+                            color: green;
+                            font-size: 25px;
+                        }
+                        .alert{
+                            color: darkgoldenrod;
+                            font-size: 25px;
+                        }
+                    }
+                }
+        
+                .health-details {
+                    span{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    // .health-detail {
+                    //     display: flex;
+                    //     justify-content: space-between;
+                    //     align-items: center;
+                    //     margin-bottom: 10px;
+        
+                    //     .health-label {
+                    //         color: #4A4A4A;
+                    //         font-size: 1em;
+                    //     }
+        
+                    //     .health-date, .payment-duration {
+                    //         color: #4A4A4A;
+                    //         font-weight: bold;
+                    //     }
+                    // }
+                }
+                
+            }
+        }
+    }
+}
