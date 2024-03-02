@@ -13,75 +13,66 @@
     <div class="class">
         <header>
             <div class="headp">
-                <h4>Müqavilələrim</h4>
-            </div>
-            
-            <div class="allbtns">
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-bell"></i>
+                <h4>Health Information Form</h4>
             </div>
         </header>
     
         <main>
-            <div class="tabs">
-                <button class="tab active">Aktiv</button>
-                <button class="tab">Dondurulmuş</button>
-                <button class="tab">Bitmiş</button>
-                <button class="tab">Hamısı</button>
-            </div>
-
-            <div class="payment-info">
-                <div class="payment-info-header">
-                    <span class="left">
-                        Ay üzrə ödəniləcək məbləğ
-                    </span>
-                    <p class="right">
-                        ₼ 350
-                    </p>
-                </div>
-                <div class="payment-details">
-                    <div class="payment-detail">
-                        <span class="payment-label">HYS-17437/141</span>
-                        <span class="payment-date">31.08.2022 - 31.08.2025</span>
+            <div class="form-section">
+                <form id="health-form" action="submit.php" method="POST">
+                    <div class="mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Musa">
                     </div>
-                    <div class="payment-detail">
-                        <span class="payment-label">Bitmə müddəti</span>
-                        <span class="payment-duration">491 gün</span>
+                    <div class="mb-3">
+                        <label for="surname">Surname</label>
+                        <input type="text" class="form-control" id="surname" name="surname" required placeholder="Afandiyev">
                     </div>
-                </div>
-            </div>
+                    <div class="mb-3">
+                        <label for="diabets">Do you have Dyspnea?</label>
+                        <select class="form-select" id="diabetes" name="diabetes" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="diabets">Do you have Nausea and vomiting?</label>
+                        <select class="form-select" id="diabetes" name="diabetes" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="diabets">Did you Syncoped?</label>
+                        <select class="form-select" id="diabetes" name="diabetes" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="diabets">Have you noticed an abnormality in your heartbeat?</label>
+                        <select class="form-select" id="diabetes" name="diabetes" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="diabets">Do you feel fatigue?</label>
+                        <select class="form-select" id="diabetes" name="diabetes" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    
 
-            <div class="action-buttons">
-                <div class="action-button increase-application">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <span>Artım müraciəti</span>
-                </div>
-                <div class="action-button decrease-application">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <span>Azalma müraciəti</span>
-                </div>
-                <div class="action-button freeze-application">
-                    <i class="fa-solid fa-stopwatch-20"></i>
-                    <span>Dondurma müraciəti</span>
-                </div>
-            </div>
 
-            <div class="health-info">
-                <div class="health-info-header">
-                    <span class="left">
-                        Health Status
-                    </span>
-                    <p class="right">
-                        <!-- <i class="fa-solid fa-thumbs-up agree"></i> -->
-                        <i class="fa-solid fa-triangle-exclamation alert"></i>
-                    </p>
-                </div>
-                <div class="health-details">
-                    <span>Everything is fine!</span>
-                </div>
-                <div class="health-details">
-                    <span>Something goes wrong!</span>
-                </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </main>
         
