@@ -31,12 +31,6 @@ Navigate through the tabs to view contracts based on their status - Active, Froz
 ## Contribution
 Contributions are welcome. If you have an idea or suggestion, please open an issue in the repository.
 
-## License
-This project is open-sourced under the [MIT license](LICENSE).
-
-## Contact
-For any further inquiries, you can reach out to [contact@example.com](mailto:contact@example.com).
-
 ## Acknowledgements
 - Bootstrap Team for the front-end framework
 - FontAwesome for providing the icons
