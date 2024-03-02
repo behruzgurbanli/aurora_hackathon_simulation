@@ -33,7 +33,11 @@ body .class header {
   color: white;
 }
 
-body .class header .allbtns i {
+body .class header .allbtns a {
+  color: white;
+}
+
+body .class header .allbtns a i {
   border: 1px solid white;
   border-radius: 50%;
   padding: 6px;

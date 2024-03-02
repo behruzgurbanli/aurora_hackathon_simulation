@@ -1,1 +1,302 @@
-/* No CSS *//*# sourceMappingURL=doctor.css.map */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+body .class {
+  background-color: #7783b4;
+  -webkit-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+          box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 430px;
+  padding: 20px;
+}
+
+body .class header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+body .class header .allbtns a {
+  color: white;
+}
+
+body .class header .allbtns a i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+body .class main .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #6F7DB3;
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+body .class main .tabs .tab {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+  background-color: #d9e2f9;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  margin-right: 6px !important;
+  color: #5f5e62;
+}
+
+body .class main .tabs .tab:hover {
+  background-color: #c3d1f6;
+}
+
+body .class main .tabs .tab.active {
+  background-color: #5f5e62;
+  border-radius: 15px;
+  color: #d9e2f9;
+}
+
+body .class main .payment-info {
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px 0;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body .class main .payment-info .payment-info-header {
+  color: #4A4A4A;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d9e2f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .class main .payment-info .payment-info-header .right {
+  color: #7783b4;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+body .class main .payment-info .payment-details .payment-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+body .class main .payment-info .payment-details .payment-detail .payment-label {
+  color: #4A4A4A;
+  font-size: 1em;
+}
+
+body .class main .payment-info .payment-details .payment-detail .payment-date, body .class main .payment-info .payment-details .payment-detail .payment-duration {
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+body .class main .action-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+body .class main .action-buttons .action-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.9em;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0 5px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+body .class main .action-buttons .action-button span {
+  color: black;
+  text-align: center;
+}
+
+body .class main .action-buttons .action-button i {
+  color: white;
+  background-color: #9e9eff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+body .class main .doctor-info {
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px 0;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body .class main .doctor-info .doctor-header {
+  color: #4A4A4A;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+body .class main .doctor-info .doctor-header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .class main .doctor-info .doctor-header .left img {
+  max-width: 200px;
+  border-radius: 10%;
+}
+
+body .class main .doctor-info .doctor-header .right h2 {
+  margin-top: 10px;
+  text-align: center;
+  color: #6b78aa;
+  border-bottom: 1px solid #d9e2f9;
+  padding-bottom: 10px;
+}
+
+body .class main .doctor-info .doctor-header .right p {
+  color: #6b78aa;
+  text-align: center;
+  font-size: 17px;
+}
+
+body .class main .doctor-info .doctor-description,
+body .class main .doctor-info .doctor-certificates {
+  margin-top: 20px;
+}
+
+body .class main .doctor-info .doctor-description p {
+  color: #4A4A4A;
+}
+
+body .class main .doctor-info .doctor-certificates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .class main .doctor-info .doctor-certificates ul li {
+  color: #4A4A4A;
+}
+
+body .class main .doctor-overall-info {
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px 0;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body .class main .doctor-overall-info .doctor-header {
+  color: #4A4A4A;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+body .class main .doctor-overall-info .doctor-header .left h3 {
+  margin-top: 10px;
+  text-align: center;
+  color: #6b78aa;
+  border-bottom: 1px solid #d9e2f9;
+  padding-bottom: 10px;
+}
+
+body .class main .doctor-overall-info .doctor-header .right p {
+  color: #6b78aa;
+  text-align: center;
+  font-size: 17px;
+}
+
+body .class main .doctor-overall-info .doctor-description,
+body .class main .doctor-overall-info .doctor-certificates {
+  margin-top: 20px;
+}
+
+body .class main .doctor-overall-info .doctor-description p {
+  color: #4A4A4A;
+}
+
+body .class main .doctor-overall-info .doctor-certificates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .class main .doctor-overall-info .doctor-certificates ul li {
+  color: #4A4A4A;
+}
+/*# sourceMappingURL=doctor.css.map */

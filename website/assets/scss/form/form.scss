@@ -15,10 +15,14 @@ body {
             align-items: center;
             color: white;
             .allbtns{
-                i{
-                    border: 1px solid white;
-                    border-radius: 50%;
-                    padding: 6px;
+                a{
+                    color: white;
+                    
+                    i{
+                        border: 1px solid white;
+                        border-radius: 50%;
+                        padding: 6px;
+                    }
                 }
             }
         }

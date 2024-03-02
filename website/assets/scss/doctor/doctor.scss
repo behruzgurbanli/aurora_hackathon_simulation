@@ -1,0 +1,261 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    .class{
+        background-color: #7783b4;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        // height: 932px;
+        width: 430px;
+        padding: 20px;
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .allbtns{
+                a{
+                    color: white;
+                    
+                    i{
+                        border: 1px solid white;
+                        border-radius: 50%;
+                        padding: 6px;
+                    }
+                }
+            }
+        }
+        main{
+            .tabs {
+                display: flex;
+                justify-content: space-around;
+                background-color: #6F7DB3;
+                border-radius: 15px;
+                margin: 20px 0;
+                padding: 10px;
+        
+                .tab {
+                    flex: 1;
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 1em;
+                    color: white;
+                    background-color: #d9e2f9;
+                    border: none;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                    border-radius: 10px;
+                    margin-right: 6px !important;
+                    color: #5f5e62;
+                    &:hover {
+                        background-color: darken(#d9e2f9, 5%);
+                    }
+        
+                    &.active {
+                        background-color: #5f5e62;
+                        border-radius: 15px;
+                        color: #d9e2f9;
+                    }
+                }
+            }
+
+            .payment-info {
+                background-color: #FFF; // Or another color fitting your design
+                border-radius: 15px;
+                padding: 15px;
+                margin: 20px 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+                .payment-info-header {
+                    color: #4A4A4A; // Adjust the color to match your design
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                    // font-weight: bold;
+                    border-bottom: 1px solid #d9e2f9;
+                    display: flex;
+                    justify-content: space-between;
+                    .right{
+                        color: #7783b4;
+                        font-weight: bold;
+                        font-size: 18px !important;
+                    }
+                }
+        
+                .payment-details {
+                    .payment-detail {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 10px;
+        
+                        .payment-label {
+                            color: #4A4A4A;
+                            font-size: 1em;
+                        }
+        
+                        .payment-date, .payment-duration {
+                            color: #4A4A4A;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                
+            }
+
+            .action-buttons {
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0;
+                background-color: white;
+                border-radius: 10px;
+            
+                .action-button {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px;
+                    border-radius: 15px;
+                    color: white;
+                    font-size: 0.9em;
+                    flex-grow: 1;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                    
+                    span {
+                        color: black;
+                        text-align: center;
+                    }
+            
+                    i {
+                        color: white;
+                        background-color: #9e9eff;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            
+            .doctor-info {
+                background-color: #FFF;
+                border-radius: 15px;
+                padding: 15px;
+                margin: 20px 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            
+                .doctor-header {
+                    color: #4A4A4A;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+            
+                    .left {
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            max-width: 200px;
+                            border-radius: 10%;
+                        }
+                    }
+            
+                    .right {
+                        h2 {
+                            margin-top: 10px;
+                            text-align: center;
+                            color: #6b78aa;
+                            border-bottom: 1px solid #d9e2f9;
+                            padding-bottom: 10px;
+                        }
+                        p{
+                            color: #6b78aa;
+                            text-align: center;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            
+                .doctor-description,
+                .doctor-certificates {
+                    margin-top: 20px;
+                }
+            
+                .doctor-description {
+                    p {
+                        color: #4A4A4A;
+                    }
+                }
+            
+                .doctor-certificates {
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+            
+                        li {
+                            color: #4A4A4A;
+                        }
+                    }
+                }
+            }
+            
+            .doctor-overall-info {
+                background-color: #FFF;
+                border-radius: 15px;
+                padding: 15px;
+                margin: 20px 0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            
+                .doctor-header {
+                    color: #4A4A4A;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+            
+                    .left {
+                        h3 {
+                            margin-top: 10px;
+                            text-align: center;
+                            color: #6b78aa;
+                            border-bottom: 1px solid #d9e2f9;
+                            padding-bottom: 10px;
+                        }
+                    }
+            
+                    .right {
+                        
+                        p{
+                            color: #6b78aa;
+                            text-align: center;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            
+                .doctor-description,
+                .doctor-certificates {
+                    margin-top: 20px;
+                }
+            
+                .doctor-description {
+                    p {
+                        color: #4A4A4A;
+                    }
+                }
+            
+                .doctor-certificates {
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+            
+                        li {
+                            color: #4A4A4A;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -263,7 +263,20 @@ body .class main .health-info .health-info-header .right .alert {
   font-size: 25px;
 }
 
-body .class main .health-info .health-details span {
+body .class main .health-info .all-risks {
+  max-height: 180px;
+  /* Set a fixed height for the container */
+  overflow-y: auto;
+}
+
+body .class main .health-info .all-risks .each-risk {
+  border: 1px solid #9e9eff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+body .class main .health-info .all-risks .each-risk .health-details span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,24 +289,24 @@ body .class main .health-info .health-details span {
   font-size: 18px;
 }
 
-body .class main .health-info .health-details p {
+body .class main .health-info .all-risks .each-risk .health-details p {
   margin-top: 15px;
   margin-left: 5px;
   margin-right: 5px;
 }
 
-body .class main .health-info .doctor-details {
+body .class main .health-info .all-risks .each-risk .doctor-details {
   border-top: 1px solid #9e9eff;
 }
 
-body .class main .health-info .doctor-details span {
+body .class main .health-info .all-risks .each-risk .doctor-details span {
   display: block;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-body .class main .health-info .doctor-details .tab {
+body .class main .health-info .all-risks .each-risk .doctor-details .tab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,11 +334,11 @@ body .class main .health-info .doctor-details .tab {
   color: #5f5e62;
 }
 
-body .class main .health-info .doctor-details .tab:hover {
+body .class main .health-info .all-risks .each-risk .doctor-details .tab:hover {
   background-color: #c3d1f6;
 }
 
-body .class main .health-info .doctor-details .tab.active {
+body .class main .health-info .all-risks .each-risk .doctor-details .tab.active {
   background-color: #5f5e62;
   border-radius: 15px;
   color: #d9e2f9;
