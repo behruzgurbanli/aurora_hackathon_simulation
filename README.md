@@ -21,7 +21,7 @@ This project is an Insurance Management Dashboard designed to provide users with
 To get started with this project, clone the repository and open `index.html` in your web browser.
 
 ```bash
-git clone https://github.com/your-username/insurance-dashboard.git
+git clone [https://github.com/your-username/insurance-dashboard.git](https://github.com/behruzgurbanli/aurora_hackathon_simulation.git)
 cd insurance-dashboard
 ```
 
