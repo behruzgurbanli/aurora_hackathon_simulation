@@ -282,6 +282,23 @@ body .class main .doctor-overall-info .doctor-header .right p {
   font-size: 17px;
 }
 
+body .class main .doctor-overall-info .doctor-header .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+body .class main .doctor-overall-info .doctor-header .bottom img {
+  width: 75px;
+}
+
 body .class main .doctor-overall-info .doctor-description,
 body .class main .doctor-overall-info .doctor-certificates {
   margin-top: 20px;
